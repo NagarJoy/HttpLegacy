@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity
         protected void onPreExecute()
         {
             super.onPreExecute();
-            dialog = new ProgressDialog(RewardsPointsActivity.this);
+            dialog = new ProgressDialog(MainActivity.this);
             dialog.setMessage("Please Wait...");
             dialog.show();
             dialog.setCancelable(false);
